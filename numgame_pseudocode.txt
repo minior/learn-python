@@ -1,0 +1,39 @@
+I still do not see the full value of pseudocoding yet, since I caught mistakes only after coding
+
+#ask for name, validate
+print hello whats your name
+user_name = input()
+if username is empty, throw error
+elif check if all alphabets, continue
+else print error, loop back
+
+
+
+# generate a random no. betw 1 & 10, user has 6 guesses
+
+# generate no.
+ans = random int between 1 and 10
+
+#allow user input
+print "Welcome, username, im thinking of a number between 1 and 10"
+
+#compare, then if elif flow control, ever try require input again
+attempt = 0
+for attempts below 5
+    guess = input()
+    try: (use int)
+        if guess is correct:
+            print that's correct!
+        elif guess is below 1, above 10:
+            print that's not between 1 and 10
+            guess = input()
+        elif guess higher than ans:
+            print too high!
+            guess = input()
+        elif guess lower than ans:
+            print too low!
+            guess = input()
+    except to catch non-integers value error
+        print that's not a number!
+        attempt + 1
+        guess = input()
