@@ -1,3 +1,5 @@
+#! python3
+#above is a shebang line, telling windows to run it in the correc python version
 #generate a random no. betw 1 & 10, user has 6 guesses
 #in the end, this seems more complicated than it has to be. could have used break only for correct guess, and final attempt logic in a new if block
 

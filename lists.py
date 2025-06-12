@@ -23,3 +23,19 @@ print(spam)
 
 spam.sort(key=str.lower) #keyword argument that does alphabetical order
 print(spam)
+
+#lists are mutable, created 'outside' the var -> the var only references this list
+spam = [0, 1, 2, 3, 4, 5]
+bacon = spam
+print(bacon)
+bacon[1] = "yolo"
+print(bacon)
+print(spam) # spam also changes! both spam and bacon ref. the SAME list
+
+#avoidable with deepcopy() function
+import copy
+spam = [0, 1, 2, 3, 4, 5]
+cheese = copy.deepcopy(spam) #this is a new list with the same values
+cheese[1] = "swag"
+print(cheese)
+print(spam) #will not change
