@@ -23,16 +23,17 @@ for attempts below 5
     guess = input()
     try: (use int)
         if guess is correct:
-            print that's correct!
+            print that's correct! you took x attempts 
         elif guess is below 1, above 10:
             print that's not between 1 and 10
             guess = input()
-        elif guess higher than ans:
-            print too high!
-            guess = input()
-        elif guess lower than ans:
-            print too low!
-            guess = input()
+        elif last try: 
+            if guess higher than ans:
+                print too high!
+                guess = input()
+            elif guess lower than ans:
+                print too low!
+                guess = input()
     except to catch non-integers value error
         print that's not a number!
         attempt + 1

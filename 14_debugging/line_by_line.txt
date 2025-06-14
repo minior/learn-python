@@ -1,0 +1,5 @@
+Set a breakpoint on line 1, then F5 to run debugger
+Step Over (F10) to execute function block
+Step Into (F11) to execute function line-by-line
+Step Out (F12) to execute rest of function block
+Local & global var list on the left panel

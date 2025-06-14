@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "c:\Users\mrmin\Documents\Coding\Python\14_debugging\14_debugging.py", line 16, in <module>
+    switch_lights(begonia_yckroad)
+  File "c:\Users\mrmin\Documents\Coding\Python\14_debugging\14_debugging.py", line 14, in switch_lights
+    assert "red" in intersection.values(), "no lights are red" + str(intersection)
+AssertionError: no lights are red{'yck_road': 'yellow', 'begonia': 'green'}
+
+Traceback (most recent call last):
+  File "c:\Users\mrmin\Documents\Coding\Python\14_debugging\14_debugging.py", line 25, in <module>
+    raise Exception('error test')
+Exception: error test
+
+Traceback (most recent call last):
+  File "c:\Users\mrmin\Documents\Coding\Python\14_debugging\14_debugging.py", line 16, in <module>
+    switch_lights(begonia_yckroad)
+  File "c:\Users\mrmin\Documents\Coding\Python\14_debugging\14_debugging.py", line 14, in switch_lights
+    assert "red" in intersection.values(), "no lights are red" + str(intersection)
+AssertionError: no lights are red{'yck_road': 'yellow', 'begonia': 'green'}
+
+Traceback (most recent call last):
+  File "c:\Users\mrmin\Documents\Coding\Python\14_debugging\14_debugging.py", line 25, in <module>
+    raise Exception('error test')
+Exception: error test
+
